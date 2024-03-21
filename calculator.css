@@ -1,0 +1,72 @@
+div{
+    width: 500px;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+table{
+    width: 100%;
+    border: 2px solid#a48122;
+    box-shadow: 0 0 5px 5px #c7bcbc;
+}
+input[type="button"]{
+    border: none;
+    width: 100%;
+    padding: 10px;
+    font-size: 60px;
+    outline: none;
+    height: 90px;
+}
+input[type="text"]{
+    border: none;
+    width: 95%;
+    padding: 10px;
+    font-size: 70px;
+    height: 100px;
+    background-color: #4c3f4f;
+    color: #04bdca;
+    font-weight: normal;
+}
+.number{
+    background-color: #333;
+    color: hsl(75, 42%, 28%);
+    transition: all 0.3s ease-in-out;
+}
+.bgclear{
+    background-color: hsl(0, 74%, 46%);
+    color: #4c5681;
+    transition: all 0.3s ease-in-out;
+}
+.op{
+    background-color: #d3c0c0;
+    color: #164765;
+    transition: all 0.3s ease-in-out;
+}
+.equal{
+    background-color: #907171;
+    color: hsl(252, 6%, 15%);
+    transition: all 0.3s ease-in-out;
+}
+.number:hover{
+    background-color: #6c8534;
+    color: #3a1665;
+    transition: all 0.3s ease-in-out;
+}
+.bgclear:hover{
+    background-color: #333;
+    color: #5b7559;
+    transition: all 0.3s ease-in-out;
+}
+.op:hover{
+    background-color: #471154;
+    color: #241717;
+    transition: all 0.3s ease-in-out;
+}
+.equal:hover{
+    background-color: hsl(255, 61%, 45%);
+    color: #7c536b;
+    transition: all 0.3s ease-in-out;
+}
+input[type="text"]:active{
+    font-size: 70px;
+}
+ 
